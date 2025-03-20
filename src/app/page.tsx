@@ -1,16 +1,13 @@
 
-
-
+'use client'
 
 import { bancatgachCoDemData, bancatgachData, bancatgachRyobiPro, honda, makita, maybomnuocPanasonic, mayruaxePanapro,  } from "@/data/data";
 import dynamic from "next/dynamic";
-
-
 import Banner from "@/components/Banner";
 import Services from "@/components/layouts/Services"
 
-const VideoDescription =  dynamic(() => import("@/components/layouts/Videos"));
-const SliderWithProducts = dynamic(()=>import("@/components/SliderWithProducts"));
+const VideoDescription = dynamic(() => import("@/components/layouts/Videos"), { ssr: false });
+const SliderWithProducts = dynamic(()=>import("@/components/SliderWithProducts"),{ssr:false});
 
 export default function Home() {
 
