@@ -1,7 +1,6 @@
 
 
 
-import { SliderWithProducts } from "@/components/SliderWithProducts";
 
 import { bancatgachCoDemData, bancatgachData, bancatgachRyobiPro, honda, makita, maybomnuocPanasonic, mayruaxePanapro,  } from "@/data/data";
 import dynamic from "next/dynamic";
@@ -11,6 +10,8 @@ import Banner from "@/components/Banner";
 import Services from "@/components/layouts/Services"
 
 const VideoDescription =  dynamic(() => import("@/components/layouts/Videos"));
+const SliderWithProducts = dynamic(()=>import("@/components/SliderWithProducts"));
+
 export default function Home() {
 
   return (

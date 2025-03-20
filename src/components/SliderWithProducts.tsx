@@ -9,7 +9,7 @@ interface SliderWithProductsProps {
     products:ProductInterface[]
 }
 
-export const SliderWithProducts = ({
+const SliderWithProducts = ({
     title = "ĐIỆN THOẠI NỔI BẬT NHẤT",
     products
 }:SliderWithProductsProps) => {
@@ -176,3 +176,6 @@ export const SliderWithProducts = ({
     </div>
   );
 };
+
+
+export default SliderWithProducts

@@ -9,6 +9,7 @@
  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-[400px]">
           <div className = "h-full">
           <iframe 
+          loading="lazy"
           className="relative top-0 left-0 w-full h-full"  
           src="https://www.youtube-nocookie.com/embed/2yQNdvMzfnw?si=rvflOXL8kjbK-uHm" 
           title="YouTube video player 1" 
@@ -20,6 +21,7 @@
           <div>
 
           <iframe 
+            loading="lazy"
           className="relative top-0 left-0 w-full h-full"  
           src="https://www.youtube-nocookie.com/embed/7PdGF5AShXM?si=mYiAAmAkiZtlqhfB"  
           title="YouTube video player" 
