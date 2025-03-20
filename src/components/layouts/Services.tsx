@@ -61,7 +61,7 @@ const itemServices = [
 
  const Services = ({ id }: Props) => {
   return (
-    <section className="flex flex-col gap-4 px-2 mt-[100px]" id={id}>
+    <section className="flex flex-col gap-4 px-2 mt-[40px] sm:mt-[100px]" id={id}>
       <h2 className="text-xl md:text-2xl lg:text-4xl font-bold mb-4 md:mb-6 text-center">
         Các sản phẩm chính
       </h2>
