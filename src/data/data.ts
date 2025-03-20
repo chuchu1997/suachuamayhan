@@ -160,7 +160,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/bancatgach/1.png",
+    imageUrl: "/images/bancatgach/3.png",
     rating: 5,
   },
   
@@ -170,7 +170,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/bancatgach/1.png",
+    imageUrl: "/images/bancatgach/3.png",
     rating: 5,
   },
   
@@ -180,7 +180,8 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/bancatgach/1.png",
+    imageUrl: "/images/bancatgach/3.png",
+
     rating: 5,
   },
 
@@ -191,7 +192,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/bancatgach/1.png",
+    imageUrl: "/images/bancatgach/3.png",
     rating: 5,
   },
 
@@ -202,7 +203,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/bancatgach/1.png",
+    imageUrl: "/images/bancatgach/3.png",
     rating: 5,
   },
 
@@ -213,7 +214,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/bancatgach/1.png",
+    imageUrl: "/images/bancatgach/3.png",
     rating: 5,
   },
 
@@ -259,7 +260,7 @@ export const mayruaxePanapro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/mayruaxe_panapro/4.jpg",
+    imageUrl: "/images/mayruaxe_panapro/8.png",
     rating: 5,
   },
 
@@ -270,7 +271,7 @@ export const mayruaxePanapro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/mayruaxe_panapro/5.jpg",
+    imageUrl: "/images/mayruaxe_panapro/9.png",
     rating: 5,
   },
 
@@ -281,7 +282,7 @@ export const mayruaxePanapro:ProductInterface[]=[
     discount: "Giảm 11%",
     memberDiscount: "313.000đ",
     studentDiscount: "",
-    imageUrl: "/images/mayruaxe_panapro/6.png",
+    imageUrl: "/images/mayruaxe_panapro/7.png",
     rating: 5,
   },
 
