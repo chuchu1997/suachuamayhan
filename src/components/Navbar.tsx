@@ -29,16 +29,16 @@ export const Navbar = () => {
               priority={true}
             />
           </div>
-                <div className = "block sm:hidden">
+                {/* <div className = "block sm:hidden">
                 <ButtonPhoneCall />
-                </div>
+                </div> */}
 
 
-          <div className = "hidden sm:flex flex-row gap-6  ">
-            <Image src = "/images/brands/1.jpg" height = {100} width={100} quality={100} alt = "honda" priority></Image>
-            <Image src = "/images/brands/2.jpg" height = {100} width={100} alt = "panapro" priority></Image>
-            <Image src = "/images/brands/3.jpg" height = {100} width={100} alt = "mikasa" priority></Image>
-            <Image src = "/images/brands/4.jpg" height = {100} width={100} alt = "seoul" quality={100}  priority></Image>
+          <div className = "flex flex-row gap-6 ml-[50px]  ">
+            <Image src = "/images/brands/1.jpg"height = {130} width={130}  quality={100} alt = "honda" priority></Image>
+            <Image src = "/images/brands/2.jpg" height = {130} width={130}  alt = "panapro" priority></Image>
+            <Image src = "/images/brands/3.jpg"height = {130} width={130}  alt = "mikasa" priority></Image>
+            <Image src = "/images/brands/4.jpg"  height = {130} width={130} alt = "seoul" quality={100}  priority></Image>
           </div>
 
 
