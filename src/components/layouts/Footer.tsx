@@ -11,7 +11,7 @@ export const Footer: FC = () => {
           {/* Company Info Column */}
           <div className="space-y-6">
             <div className="space-y-3">
-              <h2 className="text-lg md:text-xl lg:text-xl font-bold text-accent relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-accent after:left-1/4 after:-bottom-3">
+              <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-accent relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-accent after:left-1/4 after:-bottom-3">
                 Giới Thiệu
               </h2>
               <p className="text-sm md:text-base lg:text-md text-gray-300 mt-5 leading-relaxed">
@@ -118,7 +118,7 @@ export const Footer: FC = () => {
   
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-10 pt-6 text-center">
-          <p className="text-xs md:text-sm lg:text-base text-gray-400">© 2024 Dây Đầm Dùi. All rights reserved.</p>
+          <p className="text-xs md:text-sm lg:text-base text-gray-400">© 2024 Bàn cắt gạch. All rights reserved.</p>
           <p className="text-xs md:text-sm lg:text-base text-gray-500 mt-1">Thiết kế website bởi <span className="text-accent hover:underline cursor-pointer">NguyenCuong</span></p>
         </div>
       </div>
