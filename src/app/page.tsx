@@ -7,9 +7,16 @@ import { bancatgachCoDemData, bancatgachData, bancatgachRyobiPro, honda, makita,
 import dynamic from "next/dynamic";
 
 
-import Banner from "@/components/Banner";
-import Services from "@/components/layouts/Services";
 
+
+const Banner = dynamic(() => import('@/components/Banner'), {
+  loading: () => <p>Loading...</p>,
+  ssr: true // Use if component isn't needed for SSR
+})
+const Services = dynamic(() => import('@/components/layouts/Services'), {
+  loading: () => <p>Loading...</p>,
+  ssr: true // Use if component isn't needed for SSR
+})
 
 const VideoDescription =  dynamic(() => import("@/components/layouts/Videos"));
 export default function Home() {
