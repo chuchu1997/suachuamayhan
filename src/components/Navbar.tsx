@@ -33,8 +33,6 @@ export const Navbar = () => {
                 <ButtonPhoneCall />
                 </div>
 
-        
-
 
           <div className = "hidden sm:flex flex-row gap-6  ">
             <Image src = "/images/brands/1.jpg" height = {100} width={100} quality={100} alt = "honda" priority></Image>

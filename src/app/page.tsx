@@ -6,8 +6,10 @@ import { SliderWithProducts } from "@/components/SliderWithProducts";
 import { bancatgachCoDemData, bancatgachData, bancatgachRyobiPro, honda, makita, maybomnuocPanasonic, mayruaxePanapro,  } from "@/data/data";
 import dynamic from "next/dynamic";
 
-const Banner = dynamic(() => import("@/components/Banner"));
-const Services = dynamic(() => import("@/components/layouts/Services"));
+
+import Banner from "@/components/Banner";
+import Services from "@/components/layouts/Services";
+
 
 const VideoDescription =  dynamic(() => import("@/components/layouts/Videos"));
 export default function Home() {

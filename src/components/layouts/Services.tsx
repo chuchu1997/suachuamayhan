@@ -2,6 +2,7 @@
 
 "use client";
 import { ArrowDownRight } from "lucide-react";
+import Image from "next/image";
 
 type Props = {
   id?: string;
@@ -12,7 +13,7 @@ const itemServices = [
     num: "01",
     title: "Bàn cắt gạch Panapro",
     description: "lorem ipsum dolor sit amet",
-    image: "images/bancatgach/2.png",
+    image: "/images/bancatgach/2.png",
     href: "",
     idTarget: "bancatgach",
   },
@@ -20,7 +21,7 @@ const itemServices = [
     num: "02",
     title: "Bàn cắt gạch Ryobi",
     description: "lorem ipsum dolor sit amet",
-    image: "images/bancatgach/3.png",
+    image: "/images/bancatgach/3.png",
     href: "",
     idTarget: "bancatgach-ryobi",
   },
@@ -28,7 +29,7 @@ const itemServices = [
     num: "03",
     title: "Máy rửa xe Panapro",
     description: "lorem ipsum dolor sit amet",
-    image: "images/mayruaxe_panapro/1.jpg",
+    image: "/images/mayruaxe_panapro/1.jpg",
     href: "",
     idTarget: "mayruaxe-panapro",
   },
@@ -36,7 +37,7 @@ const itemServices = [
     num: "04",
     title: "Sản phẩm Makita",
     description: "lorem ipsum dolor sit amet",
-    image: "images/dungcupin_makita/2.png",
+    image: "/images/dungcupin_makita/2.png",
     href: "",
     idTarget: "makita",
   },
@@ -44,7 +45,7 @@ const itemServices = [
     num: "05",
     title: "Máy bơm nước Panasonic",
     description: "lorem ipsum dolor sit amet",
-    image: "images/maybomnuoc_panasonic/A-130JAK.png",
+    image: "/images/maybomnuoc_panasonic/A-130JAK.png",
     href: "",
     idTarget: "maybomnuoc-panasonic",
   },
@@ -52,7 +53,7 @@ const itemServices = [
     num: "06",
     title: "Sản phẩm Honda",
     description: "lorem ipsum dolor sit amet",
-    image: "images/honda/1.png",
+    image: "/images/honda/1.png",
     href: "",
     idTarget: "honda",
   },
@@ -79,11 +80,9 @@ const itemServices = [
                 </p>
               </div>
               <div className="image-service">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="h-[70px] w-[80px] object-fill rounded-md"
-                />
+             
+                <Image  src={service.image}
+                  alt={service.title} height = {70} width={80} priority />
               </div>
               <div className="action-service">
                 <div
