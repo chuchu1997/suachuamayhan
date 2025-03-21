@@ -14,6 +14,7 @@ export const bancatgachData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/2.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-600/'
   },
   
   {
@@ -25,6 +26,7 @@ export const bancatgachData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/2.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-day-tay-panapro-ntp-800/'
   },
 
   
@@ -37,6 +39,8 @@ export const bancatgachData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/2.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1m/'
+    
   },
 
   
@@ -49,6 +53,7 @@ export const bancatgachData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/2.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1-2m/'
   },
 
   
@@ -61,6 +66,7 @@ export const bancatgachData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/2.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1-5m/'
   },
 
   
@@ -73,6 +79,7 @@ export const bancatgachData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/2.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1-8m-p-dem-cao-su/'
   },
 
 ]
@@ -88,6 +95,7 @@ export const bancatgachCoDemData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/1.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-600p-dem-cao-su/'
   },
   
   {
@@ -99,6 +107,7 @@ export const bancatgachCoDemData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/1.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-800p-dem-cao-su/'
   },
 
   
@@ -111,6 +120,7 @@ export const bancatgachCoDemData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/1.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1m-dem-cao-su/'
   },
 
   
@@ -123,6 +133,7 @@ export const bancatgachCoDemData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/1.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1-2m-dem-cao-su/'
   },
 
   
@@ -134,6 +145,7 @@ export const bancatgachCoDemData:ProductInterface[]=[
     memberDiscount: "313.000đ",
     studentDiscount: "",
     imageUrl: "/images/bancatgach/1.png",
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1m5-co-dem/',
     rating: 5,
   },
 
@@ -147,6 +159,7 @@ export const bancatgachCoDemData:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/1.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-panapro-ntp-1-8m-p-dem-cao-su/'
   },
 
 ]
@@ -162,6 +175,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/3.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-ryobipro-600-6-tac/'
   },
   
   {
@@ -172,6 +186,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/3.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-ryobipro-800-8-tac/'
   },
   
   {
@@ -181,8 +196,8 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     memberDiscount: "313.000đ",
     studentDiscount: "",
     imageUrl: "/images/bancatgach/3.png",
-
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-ryobipro-1m/'
   },
 
   
@@ -194,6 +209,7 @@ export const bancatgachRyobiPro:ProductInterface[]=[
     studentDiscount: "",
     imageUrl: "/images/bancatgach/3.png",
     rating: 5,
+    href:'https://mayxaydungmoi.com/ban-cat-gach-ryobiqc-1200/'
   },
 
   

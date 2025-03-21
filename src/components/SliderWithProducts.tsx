@@ -3,6 +3,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { ProductInterface } from '@/types/ProductInterface';
+import Link from 'next/link';
 
 interface SliderWithProductsProps { 
     title?:string;
@@ -123,7 +124,9 @@ const SliderWithProducts = ({
         onTouchEnd={onTouchEnd}
       >
         {products.map((phone, index) => (
-          <div 
+          <Link
+          target='_blank'
+            href={phone.href ?? '/'}
             key={index} 
             className="w-[calc(50%-8px)] md:w-[calc(33.333%-12px)] lg:w-[calc(25%-12px)] 2xl:w-[calc(20%-16px)] flex-shrink-0 cursor-pointer" // 2 items on mobile, 5 on desktop
           >
@@ -170,7 +173,7 @@ const SliderWithProducts = ({
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

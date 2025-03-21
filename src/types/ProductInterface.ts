@@ -10,4 +10,5 @@ export interface ProductInterface {
     studentDiscount?: string;
     imageUrl?: string;
     rating?: number;
+    href?:string;
 }
