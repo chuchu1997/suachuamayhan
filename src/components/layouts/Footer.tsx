@@ -118,7 +118,7 @@ export const Footer: FC = () => {
   
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-10 pt-6 text-center">
-          <p className="text-xs md:text-sm lg:text-base text-gray-400">© 2024 Bàn cắt gạch. All rights reserved.</p>
+          <p className="text-xs md:text-sm lg:text-base text-gray-400">© 2024 Sữa Chữa Máy Hàn. All rights reserved.</p>
           <p className="text-xs md:text-sm lg:text-base text-gray-500 mt-1">Thiết kế website bởi <span className="text-white hover:underline cursor-pointer">NguyenCuong</span></p>
         </div>
       </div>

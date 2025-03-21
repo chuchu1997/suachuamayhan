@@ -21,31 +21,33 @@ export default function Home() {
         <Services/>
       </section>
 
-      <section id ="bancatgach">
-        <SliderWithProducts products={bancatgachData} title="Bàn cắt gạch Panapro" />
+      <section id ="mayhan_hongkypro">
+        <SliderWithProducts products={bancatgachData} title="Máy hàn Hồng Ký Pro" />
       </section>
 
-      <section>
-        <SliderWithProducts products={bancatgachCoDemData} title="Bàn cắt gạch Panapro (Có Đệm)" />
+      <section id = "quehan_kimtin">
+        <SliderWithProducts products={bancatgachCoDemData} title="Que hàn Kim Tín" />
       </section>
 
-      <section id = "bancatgach-ryobi">
-        <SliderWithProducts products={bancatgachRyobiPro} title="Bàn cắt gạch Ryobipro " />
+      <section id = "mayhan_jasic">
+        <SliderWithProducts products={bancatgachRyobiPro} title="Máy hàn Jasic " />
       </section>
 
-      <section id="mayruaxe-panapro">
-        <SliderWithProducts products={mayruaxePanapro} title="Máy rửa xe Panapro " />
+      <section id="mayhan_hongky">
+        <SliderWithProducts products={mayruaxePanapro} title="Máy hàn Hồng Ký HK " />
       </section>
 
 
-      <section id ="makita">
-        <SliderWithProducts products={makita} title="Dụng cụ pin Makita" />
+      <section id ="mayhanco_hongky">
+        <SliderWithProducts products={makita} title="Máy hàn cơ Hồng Ký - Tiến Đạt" />
       </section>
 
-      <section id="maybomnuoc-panasonic">
-        <SliderWithProducts products={maybomnuocPanasonic} title="Máy bơm nước Panasonic" />
+      <section id="makita">
+        <SliderWithProducts products={maybomnuocPanasonic} title="Makita" />
       </section>
-    
+      <section id="maynenkhi">
+        <SliderWithProducts products={honda} title="Máy nén khí" />
+      </section>
       <section>
         <VideoDescription/>
       </section>

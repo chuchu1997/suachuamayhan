@@ -11,7 +11,7 @@ type Props = {
 const itemServices = [
   {
     num: "01",
-    title: "Bàn cắt gạch Panapro",
+    title: "Máy Hàn Hồng Ký PRO",
     description: "lorem ipsum dolor sit amet",
     image: "/images/bancatgach/2.png",
     href: "",
@@ -19,7 +19,7 @@ const itemServices = [
   },
   {
     num: "02",
-    title: "Bàn cắt gạch Ryobi",
+    title: "Que hàn Kim Tín",
     description: "lorem ipsum dolor sit amet",
     image: "/images/bancatgach/3.png",
     href: "",
@@ -27,7 +27,7 @@ const itemServices = [
   },
   {
     num: "03",
-    title: "Máy rửa xe Panapro",
+    title: "Máy hàn jasic",
     description: "lorem ipsum dolor sit amet",
     image: "/images/mayruaxe_panapro/1.jpg",
     href: "",
@@ -35,7 +35,7 @@ const itemServices = [
   },
   {
     num: "04",
-    title: "Sản phẩm Makita",
+    title: "Máy hàn cơ Hồng Ký - Tiến Đạt",
     description: "lorem ipsum dolor sit amet",
     image: "/images/dungcupin_makita/2.png",
     href: "",
@@ -43,7 +43,7 @@ const itemServices = [
   },
   {
     num: "05",
-    title: "Máy bơm nước Panasonic",
+    title: "Makita",
     description: "lorem ipsum dolor sit amet",
     image: "/images/maybomnuoc_panasonic/A-130JAK.png",
     href: "",
@@ -51,7 +51,7 @@ const itemServices = [
   },
   {
     num: "06",
-    title: "Sản phẩm Honda",
+    title: "Máy nén khí",
     description: "lorem ipsum dolor sit amet",
     image: "/images/honda/1.png",
     href: "",
@@ -59,9 +59,11 @@ const itemServices = [
   },
 ];
 
- const Services = ({ id }: Props) => {
+const Services = ({ id }: Props) => {
   return (
-    <section className="flex flex-col gap-4 px-2 mt-[40px] sm:mt-[100px]" id={id}>
+    <section
+      className="flex flex-col gap-4 px-2 mt-[40px] sm:mt-[100px]"
+      id={id}>
       <h2 className="text-xl md:text-2xl lg:text-4xl font-bold mb-4 md:mb-6 text-center">
         Các sản phẩm chính
       </h2>
@@ -80,9 +82,13 @@ const itemServices = [
                 </p>
               </div>
               <div className="image-service">
-             
-                <Image  src={service.image}
-                  alt={service.title} height = {70} width={80} priority />
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  height={70}
+                  width={80}
+                  priority
+                />
               </div>
               <div className="action-service">
                 <div
