@@ -81,7 +81,7 @@ const SliderWithProducts = ({
   };
 
   return (
-    <div className="relative container mx-auto py-8 px-4">
+    <div className="relative container mx-auto py-8 px-4 ">
       <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 md:mb-6">
         {title}
       </h2>
@@ -125,7 +125,7 @@ const SliderWithProducts = ({
         {products.map((phone, index) => (
           <div 
             key={index} 
-            className="w-[calc(50%-8px)] md:w-[calc(33.333%-12px)] lg:w-[calc(25%-12px)] 2xl:w-[calc(20%-16px)] flex-shrink-0" // 2 items on mobile, 5 on desktop
+            className="w-[calc(50%-8px)] md:w-[calc(33.333%-12px)] lg:w-[calc(25%-12px)] 2xl:w-[calc(20%-16px)] flex-shrink-0 cursor-pointer" // 2 items on mobile, 5 on desktop
           >
             <div className="border rounded-lg p-3 md:p-4 h-full">
               <div className="relative h-40 md:h-44 lg:h-48 mb-3 md:mb-4">
