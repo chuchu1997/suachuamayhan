@@ -4,6 +4,7 @@
 import Image from "next/image"
 
 import { ButtonPhoneCall } from "./ButtonPhoneCall"
+import Link from "next/link"
 
 
 
@@ -15,7 +16,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <Link className="flex-shrink-0" href = "/">
             <Image
               src="/images/logo.png"
               width={100}
@@ -28,11 +29,10 @@ export const Navbar = () => {
               // Prevent any layout shift during loading
               priority={true}
             />
-          </div>
+          </Link>
                 {/* <div className = "block sm:hidden">
                 <ButtonPhoneCall />
                 </div> */}
-
 
           <div className = "flex flex-row gap-6 ml-[50px]  ">
             <Image src = "/images/brands/1.jpg"height = {130} width={130}  quality={100} alt = "honda" priority></Image>

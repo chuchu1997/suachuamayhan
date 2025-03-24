@@ -146,7 +146,7 @@ const SliderWithProducts = ({
                   {phone.name}
                 </h3>
                 <div className="text-base md:text-lg lg:text-xl font-bold text-red-500">
-                  {phone.price}
+                  {phone.price ?? 'Liên hệ'}
                 </div>
                 {phone.oldPrice && (
                   <div className="text-xs md:text-sm text-gray-500 line-through">

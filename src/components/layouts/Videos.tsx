@@ -11,7 +11,7 @@
           <iframe 
           loading="lazy"
           className="relative top-0 left-0 w-full h-full"  
-          src="https://www.youtube-nocookie.com/embed/2yQNdvMzfnw?si=rvflOXL8kjbK-uHm" 
+          src="https://www.youtube.com/embed/xInt-lD4Pm8?si=hTsbctnSew1yByh3" 
           title="YouTube video player 1" 
           frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -23,7 +23,7 @@
           <iframe 
             loading="lazy"
           className="relative top-0 left-0 w-full h-full"  
-          src="https://www.youtube-nocookie.com/embed/7PdGF5AShXM?si=mYiAAmAkiZtlqhfB"  
+          src="https://www.youtube.com/embed/0C98YuqLilA?si=f7_QeiV-dFtVsp9u"  
           title="YouTube video player" 
           frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
