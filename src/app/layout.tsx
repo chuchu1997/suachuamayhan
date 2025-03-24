@@ -96,7 +96,7 @@ export const metadata: Metadata = {
 
   // Verification for search engines
   verification: {
-    google: "wMt7hnMjLRlaD0X0IA3qJTzTLCVmnoueLA0APvABQDk",
+    google: "yDzcBZrLnnzmVf-g5JWvsvEMRhifOUM-9Dm9Y1jmQ8U",
   },
 
   // Robot directives
