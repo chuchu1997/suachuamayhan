@@ -13,6 +13,15 @@ export const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b py-2">
+            <div className=" bg-gray-100 py-2 hidden sm:block">
+        <div className = "container mx-auto">
+          <div className = "flex items-center justify-between">
+          <h3 className = "italic font-semibold">Tổng đài tư vấn: 0973926139 - 0973976139
+          </h3>
+          </div>
+        </div>
+   
+      </div>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

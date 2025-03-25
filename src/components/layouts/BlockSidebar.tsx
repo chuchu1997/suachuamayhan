@@ -9,6 +9,9 @@ const items = [
   { title: "Chat Zalo", icon: "/images/socials/zalo.png", href: `http://zalo.me/${PHONE_NUMBER}` },
   { title: "Gọi điện", icon: "/images/socials/phone.png", href: `tel:${PHONE_NUMBER}` },
   // { title: "Messager", icon: "/messager.jpg" },
+  { title: "Facebook", icon: "/images/socials/facebook.png", href: `https://www.facebook.com/bancatgachdaytay` },
+
+
 ];
 const BlockSidebar = () => {
   const [sort, setSort] = useState(true);
