@@ -5,6 +5,7 @@ import Image from "next/image"
 
 import { ButtonPhoneCall } from "./ButtonPhoneCall"
 import Link from "next/link"
+import { HeadsetIcon } from "lucide-react"
 
 
 
@@ -16,8 +17,10 @@ export const Navbar = () => {
             <div className=" bg-gray-100 py-2 hidden sm:block">
         <div className = "container mx-auto">
           <div className = "flex items-center justify-between">
-          <h3 className = "text-black  italic font-semibold transition-transform duration-200 hover:scale-[1.2]">0973 926 139 - 0973 976 139
-          </h3>
+          <h3 className="flex items-center gap-x-3 text-black  italic font-semibold transition-transform duration-200 hover:scale-[1.2]">
+              <HeadsetIcon />
+              <span>Hotline: 0862.398.558</span>
+            </h3>
           </div>
         </div>
    

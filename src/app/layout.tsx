@@ -8,6 +8,7 @@ import { BodyContainer } from "@/components/BodyContainer";
 import { Footer } from "@/components/layouts/Footer";
 import BlockSidebar from "@/components/layouts/BlockSidebar";
 import { MobileGroupButton } from "@/components/layouts/MobileGroupButton";
+import BlockPhoneNumber from "@/components/layouts/BlockPhoneNumber";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -138,6 +139,7 @@ export default function RootLayout({
         <BodyContainer>{children}</BodyContainer>
 
         <BlockSidebar />
+        <BlockPhoneNumber />
         <MobileGroupButton />
 
         <Footer />
