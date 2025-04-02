@@ -7,9 +7,11 @@ import { PHONE_NUMBER } from "@/constants/phone";
 const items = [
   // },
   { title: "Chat Zalo", icon: "/images/socials/zalo.png", href: `http://zalo.me/${PHONE_NUMBER}` },
-  { title: "Gọi điện", icon: "/images/socials/phone.png", href: `tel:${PHONE_NUMBER}` },
+  { title: `${PHONE_NUMBER}`, icon: "/images/socials/phone.png", href: `tel:${PHONE_NUMBER}` },
   // { title: "Messager", icon: "/messager.jpg" },
-  { title: "Facebook", icon: "/images/socials/facebook.png", href: `https://www.facebook.com/bancatgachdaytay` },
+  { title: "Facebook", icon: "/images/socials/facebook.png", href: `https://www.facebook.com/suachuamayhan.mxdm` },
+  { title: "Tiktok", icon: "/images/socials/tiktok.png", href: `https://www.tiktok.com/@mayxaydungmoi` },
+  { title: "Youtube", icon: "/images/socials/youtube.png", href: `https://www.youtube.com/@mayxaydungmoi` },
 
 
 ];
@@ -47,7 +49,7 @@ const BlockSidebar = () => {
               className={`${
                 sort
                   ? "hidden"
-                  : "text-black/80 text-center text-sm group-hover:text-accent "
+                  : "text-black/80 font-semibold text-center text-sm group-hover:text-accent "
               }`}
             >
               {item.title}

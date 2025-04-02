@@ -99,12 +99,12 @@ export const Footer: FC = () => {
   
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-4 mt-10">
-          <a href="https://www.facebook.com/bancatgachdaytay" className="bg-gray-700 p-2 rounded-full text-white hover:bg-accent hover:text-white transition-all duration-300">
+          <a href="https://www.facebook.com/suachuamayhan.mxdm" className="bg-gray-700 p-2 rounded-full text-white hover:bg-accent hover:text-white transition-all duration-300">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd"></path>
             </svg>
           </a>
-          <a href="https://www.tiktok.com/@bancatgach" className="bg-gray-700 p-2 rounded-full text-white hover:bg-accent hover:text-white transition-all duration-300">
+          <a href="https://www.tiktok.com/@mayxaydungmoi" className="bg-gray-700 p-2 rounded-full text-white hover:bg-accent hover:text-white transition-all duration-300">
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
   <path d="M12 2C12 1.447 12.447 1 13 1c0 2.485 1.79 4.518 4.157 4.9A5.003 5.003 0 0 0 19 6v3.5c-1.074 0-2.147-.242-3.073-.699a5.002 5.002 0 0 1-1.927-1.762v7.703a3.991 3.991 0 0 1-1.222 2.876A4.002 4.002 0 0 1 7 19a4 4 0 0 1-3.167-6.494A3.993 3.993 0 0 1 9 10c.342 0 .678.045 1 .13V12a2 2 0 0 0-1-.27 2 2 0 0 0 0 4c.537 0 1.047-.211 1.428-.586A1.992 1.992 0 0 0 11 14V2h1z"/>
 </svg>
