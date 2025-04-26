@@ -8,8 +8,8 @@ const items = [
   // },
   { title: "Chat Zalo", icon: "/images/socials/zalo.png", href: `http://zalo.me/${PHONE_NUMBER}` },
   // { title: "Messager", icon: "/messager.jpg" },
-  { title: "Facebook", icon: "/images/socials/facebook.png", href: `https://www.facebook.com/suachuamayhan.mxdm` },
-  { title: "Tiktok", icon: "/images/socials/tiktok.png", href: `https://www.tiktok.com/@mayxaydungmoi` },
+  { title: "Facebook", icon: "/images/socials/facebook.png", href: `https://www.facebook.com/makitatools.vn` },
+  { title: "Tiktok", icon: "/images/socials/tiktok.png", href: `https://www.tiktok.com/@makitatools.vn` },
   { title: "Youtube", icon: "/images/socials/youtube.png", href: `https://www.youtube.com/@mayxaydungmoi` },
 
 

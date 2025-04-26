@@ -17,7 +17,7 @@ export const Navbar = () => {
             <div className=" bg-gray-100 py-2 hidden sm:block">
         <div className = "container mx-auto">
           <div className = "flex items-center justify-between">
-          <h3 className="flex items-center gap-x-3 text-black  italic font-semibold transition-transform duration-200 hover:scale-[1.2]">
+          <h3 className="flex items-center gap-x-3 text-black   font-semibold transition-transform duration-200 hover:scale-[1.2]">
               <HeadsetIcon />
               <span>Hotline: 0862.398.558</span>
             </h3>
